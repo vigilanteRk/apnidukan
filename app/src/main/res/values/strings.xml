@@ -1,0 +1,81 @@
+<resources>
+    <!--Main Application-->
+    <string name="app_name">My Application</string>
+    <!--/Main Application-->
+
+    <!--Intro Screen-->
+    <string name="Enjoy">Enjoy Your Shopping \n \t \t \t Get high quality products \n \t \t \t the bst prices</string>
+    <!--/Intro Screen-->
+
+
+    <!--Login Screen-->
+    <string name="EmailFull_Name">Id/Full Name</string>
+    <string name="Remember_Me">Remember Me </string>
+    <string name="Login">LOGIN</string>
+    <string name="Skip">SKIP</string>
+    <string name="Forgot_Password">Forgot Password ?</string>
+    <string name="Register">Register</string>
+    <!--/Login Screen-->
+
+    <!--Common in Login and Register Screen-->
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="facebook">Login with facebook</string>
+    <string name="google">Login with google +</string>
+    <!--/Common in Login and Register Screen-->
+
+    <!--Register Screen-->
+    <string name="Full_Name">Full Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Confirm_Password">_Password</string>
+    <string name="Have_Account">Allready have an account yet ? Login</string>
+    <string name="Submit">Submit</string>
+    <!--/Register Screen-->
+
+
+    <!--Home Screen-->
+    <string name="Ecommerce">Ecommerce</string>
+    <string name="Search">Search items...</string>
+    <string name="Furniture">Furniture  Sale\n Furniture sale  in all items</string>
+    <string name="Browse">Browse by categories</string>
+    <string name="View_All">VIEW All</string>
+    <string name="Mobile">Mobile &amp; Electronics\n20 Products</string>
+    <!--See in comman area-->
+    <string name="Latest">Latest</string>
+    <string name="Urban">UrbanWear</string>
+    <string name="Bredo">BredoWear</string>
+    <string name="Formal">FormalWear</string>
+    <string name="Rs">\u20B9</string>
+    <string name="RS">\u20A8</string>
+    <string name="Discount">Discount coupons</string>
+    <string name="Offers">Trending Offers</string>
+    <string name="Cold">Cold Look</string>
+    <string name="West">West Look</string>
+    <string name="Punk">Punk Look</string>
+    <string name="View">View All</string>
+    <!--/Home Screen-->
+
+    <!--Sidebar Screen-->
+    <string name="Heading">Apni-Dukan \n By more, Sell more</string>
+    <string name="Sub_Heading">By more, Sell more</string>
+    <string name="Home">Home</string>
+    <string name="Favourite">Favourite</string>
+    <string name="My_Order">My Order</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="Change_Theme">Change Theme</string>
+    <!--/Sidebar Screen-->
+
+    <!--Common in HomeScreen and Category Screen-->
+    <string name="Home_Products">Home &amp; Living \n 20 Products</string>
+    <string name="Category">Category</string>
+    <!--/Common in HomeScreen and Category Screen-->
+
+    <!--Category Screen-->
+    <string name="Mobiles">Mobile &amp; \n15 Products</string>
+    <string name="Women">Women \n Fashion \n 20 Products</string>
+    <string name="Tv">Tv &amp; \n Appliances \n 20 Products</string>
+    <string name="Books">Books &amp; More \n 40 Products</string>
+    <!--/Category Screen-->
+
+</resources>

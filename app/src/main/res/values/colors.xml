@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="main_background">#77b2ed</color>
+    <!--<color name="main_background">#7FB3D5</color>-->
+    <color name="main_text">#ffffff</color>
+    <color name="facebook_text">#32629A</color>
+    <color name="google_text">#E03E3E</color>
+    <color name="home_screen">#ffffff</color>
+    <color name="diff_screen">#000000</color>
+    <color name="figma_screen">#5AB40D</color>
+    <color name="grey">#C4C4C4</color>
+    <color name="wash">#EBEDEF</color>
+</resources>
