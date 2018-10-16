@@ -6,42 +6,171 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/card_view1"
-        android:layout_width="181dp"
-        android:layout_height="162dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="8dp"
-        app:cardCornerRadius="6dp"
-        android:src="@mipmap/first_launcher_foreground"
-        app:contentPadding="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/card_view1"-->
+        <!--android:layout_width="181dp"-->
+        <!--android:layout_height="162dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--app:cardCornerRadius="6dp"-->
+        <!--android:src="@mipmap/first_launcher_foreground"-->
+        <!--app:contentPadding="4dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-            <!--android:background="@drawable/laptops" />-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/imageView3"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent" />&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:background="@drawable/laptops" />&ndash;&gt;&ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Electronics"/>-->
+            <!--&lt;!&ndash;android:textColor="@color/google_text" />&ndash;&gt;-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view4"
+        android:layout_width="392dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/main_background"
+        app:cardCornerRadius="6dp"
+        app:contentPadding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="4dp" >
+        <!--app:cardElevation="@dimen/fab_margin"-->
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Electronics"/>
-            <!--android:textColor="@color/google_text" />-->
+            android:text="WOMAEN"
+            android:textSize="22sp"
+            android:textColor="@color/main_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:textFontWeight="30dp"
+            android:text="MEN"
+            android:textSize="20sp"
+            android:textColor="@color/main_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="168dp"
+            android:textFontWeight="40dp"
+            android:text="YOUNG BOY"
+            android:textSize="20sp"
+            android:textColor="@color/main_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:textFontWeight="40dp"
+            android:text="ALL TTIME"
+            android:textSize="20sp"
+            android:textColor="@color/main_text"/>
+        <!--android:textColor="@color/google_text" />-->
 
     </android.support.v7.widget.CardView>
 
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view5"
+        android:layout_width="392dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        app:cardBackgroundColor="@color/main_background"
+        app:cardCornerRadius="6dp"
+        app:contentPadding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--app:cardElevation="@dimen/fab_margin"-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 Items"
+            android:textSize="22sp"
+            android:textColor="@color/diff_screen"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="118dp"
+            android:tint="@color/wash"
+            app:srcCompat="@drawable/dash" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="128dp"
+            android:tint="@color/wash"
+            app:srcCompat="@drawable/list" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="66dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="178dp"
+            android:tint="@color/wash"
+            app:srcCompat="@drawable/grid" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="238dp"
+            android:tint="@color/wash"
+            app:srcCompat="@drawable/dash" />
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="66dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="248dp"
+            android:tint="@color/wash"
+            app:srcCompat="@drawable/filter" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="308dp"
+            android:text="Filter"
+            android:textSize="22sp"
+            android:textColor="@color/main_text"/>
+
+        <!--android:textColor="@color/google_text" />-->
+
+    </android.support.v7.widget.CardView>
+
+
     <android.support.v7.widget.CardView
         android:id="@+id/card_view"
-        android:layout_width="181dp"
-        android:layout_height="163dp"
+        android:layout_width="362dp"
+        android:layout_height="133dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="108dp"
+        app:cardElevation="14dp"
         app:cardCornerRadius="6dp"
         app:contentPadding="4dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,71 +179,182 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-            <!--android:background="@drawable/furni" />-->
+            android:layout_width="147dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/stand" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Furniture" />
-            <!--android:textColor="@color/google_text" />-->
+            android:gravity="center"
+            android:layout_marginStart="148dp"
+            android:text="Women Dark Top \n Rs 449 \n 100% off Polyster, hand wash in cold watter"
+            android:textSize="18sp"
+            android:textColor="@color/diff_screen"
+             />
 
-    </android.support.v7.widget.CardView>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginStart="148dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:text="Rs: 429"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="@color/diff_screen"-->
+            <!--/>-->
 
-    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view2"
-        android:layout_width="176dp"
-        android:layout_height="164dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        card_view:cardCornerRadius="6dp"
-        card_view:contentPadding="4dp"
-        card_view:layout_constraintEnd_toEndOf="parent"
-        card_view:layout_constraintTop_toTopOf="parent">
-        <!--card_view:cardElevation="@dimen/fab_margin"-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginStart="148dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:text="100% off Polyster"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="@color/diff_screen"-->
+            <!--/>-->
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-            <!--android:background="@drawable/games" />-->
+            android:layout_width="147dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="80dp"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Games"/>
-            <!--android:textColor="@color/google_text" />-->
+            app:srcCompat="@drawable/stars" />
+        <!--android:textColor="@color/google_text" />-->
 
     </android.support.v7.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/card_view2"-->
+        <!--android:layout_width="176dp"-->
+        <!--android:layout_height="164dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--card_view:cardCornerRadius="6dp"-->
+        <!--card_view:contentPadding="4dp"-->
+        <!--card_view:layout_constraintEnd_toEndOf="parent"-->
+        <!--card_view:layout_constraintTop_toTopOf="parent">-->
+        <!--&lt;!&ndash;card_view:cardElevation="@dimen/fab_margin"&ndash;&gt;-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+            <!--&lt;!&ndash;android:background="@drawable/games" />&ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Games"/>-->
+            <!--&lt;!&ndash;android:textColor="@color/google_text" />&ndash;&gt;-->
+
+    <!--</android.support.v7.widget.CardView>-->
 
     <android.support.v7.widget.CardView
         android:id="@+id/card_view3"
-        android:layout_width="176dp"
-        android:layout_height="164dp"
+        android:layout_width="362dp"
+        android:layout_height="133dp"
         android:layout_gravity="center"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="38dp"
         app:cardCornerRadius="6dp"
         app:contentPadding="4dp"
+        app:cardElevation="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693">
         <!--app:cardElevation="@dimen/fab_margin"-->
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-            <!--android:background="@drawable/dress" />-->
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="343dp"-->
+        <!--android:layout_height="143dp" />-->
+        <!--android:background="@drawable/dress" />-->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dress"/>
-            <!--android:textColor="@color/google_text" />-->
+            android:layout_marginStart="148dp"
+            android:gravity="center"
+            android:text="Women Dark Top \n Rs 449 \n 100% off Polyster, hand wash in cold watter"
+            android:textColor="@color/diff_screen"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="147dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="80dp"
+
+            app:srcCompat="@drawable/stars" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="147dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/stand" />
+        <!--android:textColor="@color/google_text" />-->
 
     </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view6"
+        android:layout_width="362dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        app:cardCornerRadius="6dp"
+        app:contentPadding="4dp"
+        app:cardElevation="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997">
+        <!--app:cardElevation="@dimen/fab_margin"-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="343dp"-->
+        <!--android:layout_height="143dp" />-->
+        <!--android:background="@drawable/dress" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:gravity="center"
+            android:text="Women Dark Top \n Rs 449 \n 100% off Polyster, hand wash in cold watter"
+            android:textColor="@color/diff_screen"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="147dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="80dp"
+
+            app:srcCompat="@drawable/stars" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="147dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/stand" />
+        <!--android:textColor="@color/google_text" />-->
+
+    </android.support.v7.widget.CardView>
+
 </android.support.constraint.ConstraintLayout>
