@@ -25,7 +25,7 @@
     <!--/Common in Login and Register Screen-->
 
     <!--Register Screen-->
-    <string name="Full_Name">Full Name</string>
+    <string name="Full_Name">\t Full Name</string>
     <string name="Last_Name">Last Name</string>
     <string name="Confirm_Password">_Password</string>
     <string name="Have_Account">Allready have an account yet ? Login</string>
@@ -35,7 +35,7 @@
 
     <!--Home Screen-->
     <string name="Ecommerce">Ecommerce</string>
-    <string name="Search">Search items...</string>
+    <string name="Search">\t Search items...</string>
     <string name="Furniture">Furniture  Sale\n Furniture sale  in all items</string>
     <string name="Browse">Browse by categories</string>
     <string name="View_All">VIEW All</string>
@@ -67,13 +67,13 @@
     <!--/Sidebar Screen-->
 
     <!--Common in HomeScreen and Category Screen-->
-    <string name="Home_Products">Home &amp; Living \n 20 Products</string>
+    <string name="Home_Products">Home &amp; Living \n20 Products</string>
     <string name="Category">Category</string>
     <!--/Common in HomeScreen and Category Screen-->
 
     <!--Category Screen-->
     <string name="Mobiles">Mobile &amp; \n15 Products</string>
-    <string name="Women">Women \n Fashion \n 20 Products</string>
+    <string name="Women">Women \n Fashion \n 30 Products</string>
     <string name="Tv">Tv &amp; \n Appliances \n 20 Products</string>
     <string name="Books">Books &amp; More \n 40 Products</string>
     <!--/Category Screen-->

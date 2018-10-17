@@ -133,7 +133,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="235dp"
+        android:layout_marginBottom="284dp"
         android:gravity="center_horizontal"
         android:text="@string/My_Order"
         android:textColor="@color/grey"
@@ -146,8 +146,8 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView40"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="193dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="233dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/setting" />
 
@@ -158,7 +158,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="189dp"
+        android:layout_marginBottom="227dp"
         android:gravity="center_horizontal"
         android:text="@string/Settings"
         android:textColor="@color/grey"
@@ -171,8 +171,8 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView40"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="180dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/logout" />
 
@@ -182,7 +182,7 @@
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-93dp"
-        android:layout_marginBottom="142dp"
+        android:layout_marginBottom="177dp"
         android:layout_toEndOf="@+id/imageView39"
         android:gravity="center_horizontal"
         android:text="@string/Logout"
@@ -196,8 +196,8 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView40"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="97dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="125dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/theme" />
 
@@ -208,7 +208,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginBottom="125dp"
         android:gravity="center_horizontal"
         android:text="@string/Change_Theme"
         android:textColor="@color/grey"

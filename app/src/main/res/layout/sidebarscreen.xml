@@ -110,8 +110,8 @@
         android:layout_height="32dp"
         android:layout_below="@+id/imageView34"
         android:layout_alignEnd="@+id/imageView32"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-1dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/bookmark" />
 
@@ -122,7 +122,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="221dp"
+        android:layout_marginBottom="271dp"
         android:gravity="center_horizontal"
         android:text="@string/My_Order"
         android:textColor="@color/grey"
@@ -134,8 +134,8 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView32"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="186dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="226dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/setting" />
 
@@ -146,7 +146,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="181dp"
+        android:layout_marginBottom="224dp"
         android:gravity="center_horizontal"
         android:text="@string/Settings"
         android:textColor="@color/grey"
@@ -158,8 +158,8 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView32"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="141dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="174dp"
         android:tint="@color/grey"
         app:srcCompat="@drawable/logout" />
 
@@ -169,7 +169,7 @@
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-93dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="173dp"
         android:layout_toEndOf="@+id/imageView31"
         android:gravity="center_horizontal"
         android:text="@string/Logout"
@@ -182,9 +182,10 @@
         android:layout_height="32dp"
         android:layout_alignStart="@+id/imageView32"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="96dp"
-        app:srcCompat="@drawable/theme"
-        android:tint="@color/grey"/>
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="128dp"
+        android:tint="@color/grey"
+        app:srcCompat="@drawable/theme" />
 
     <TextView
         android:id="@+id/textView19"
@@ -193,7 +194,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="95dp"
+        android:layout_marginBottom="126dp"
         android:gravity="center_horizontal"
         android:text="@string/Change_Theme"
         android:textColor="@color/grey"

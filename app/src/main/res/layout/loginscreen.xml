@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_background">
+    android:background="@color/main_background"
+    tools:ignore="ContentDescription">
 
     <TextView
         android:id="@+id/textView"
@@ -147,8 +149,8 @@
         android:layout_height="36dp"
         android:layout_alignStart="@+id/imageView18"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="175dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="119dp"
         app:srcCompat="@drawable/email" />
 
     <ImageView
@@ -168,7 +170,7 @@
         android:layout_alignStart="@+id/imageView18"
         android:layout_alignBottom="@+id/textView8"
         android:layout_marginStart="1dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="65dp"
         app:srcCompat="@drawable/password" />
 
     <ImageView
